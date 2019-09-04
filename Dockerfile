@@ -1,4 +1,6 @@
-FROM openkbs/jre-mvn-py3:latest
+FROM openkbs/jdk-mvn-py3:latest
+
+# FROM openkbs/jre-mvn-py3:latest
 
 RUN 
     apt-get install -y software-properties-common  && \ 
